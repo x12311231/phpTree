@@ -1,0 +1,19 @@
+{
+    "name": "king192/phpTree",
+    "description": "phpTree",
+    "authors": [
+        {
+            "name": "crazymus",
+            "QQ": "291445576"
+        }
+    ],
+    "license": "Apache-2.0",
+    "require": {
+        "king192/phpTree": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "king192\\phpTree\\": "src/"
+        }
+    }
+}
