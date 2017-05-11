@@ -1,5 +1,5 @@
 <?php 
-require('PHPTree.class.php');
+// require('PHPTree.class.php');
 
 //原始数据, 从数据库读出
 $data = array(
@@ -25,7 +25,7 @@ $data = array(
 	)
 );
 
-$r = PHPTree::makeTree($data);
+$r = \king192\phpTree\PHPTree::makeTree($data);
 echo json_encode($r);
 
 ?>
