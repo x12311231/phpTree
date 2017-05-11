@@ -10,7 +10,7 @@
     "homepage": "https://github.com/king192/phpTree.git",
     "license": "Apache-2.0",
     "require": {
-        "king192/phpTree": "dev-master"
+        "king192/php_tree": "dev-master"
     },
     "autoload": {
         "psr-4": {
